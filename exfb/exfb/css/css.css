@@ -1,0 +1,115 @@
+		.pai{
+			width: 100%;
+			height: 55vh;
+			background-color: darkgreen;
+			display: flex;
+			flex-direction: column;
+		}
+		.filho1{
+			width: 15%;
+			height: 25vh;
+			background-color: darkgreen;
+			justify-content: normal;
+		}
+		.filho2{
+			width: 100%;
+			height: 55vh;
+			background-color: lightgray;
+		}
+		.pai2{
+			width: 100%;
+			height: 78vh;
+			background-color: white;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+		.filho3{
+			width: 35%;
+			height: 82vh;
+			flex-direction: column-reverse;
+			background-color: white;
+		}
+		.pai3{
+			width: 100%;
+			height: 22vh;
+			background-color: darkgreen;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+		#i1{
+			margin: 2vh;
+		}
+		#fec{
+			margin: 3vh ;
+			text-align: center;
+		}
+		#e{
+			position: absolute;
+			margin: 2vh 40% 2vh 10%;
+			
+		}
+	.tx{
+		margin: 2vh 0% 2vh 0%;
+		color:blue;
+		font-size: 23px;
+		font-family: sans-serif;
+		
+	}
+	.paginas{
+		margin: 5px 5px 0px 0px;
+	}
+@media (max-width:760px) {
+	.filho2{
+		display:none;
+	}
+	#fec{
+		display: block;
+	}
+	#B{
+		display: none;
+	}
+	.pai{
+		width: 100%;
+		height: 22vh;
+		flex-direction: row;
+		text-align: center;
+	}
+	.filho1{
+		text-align: center !important;
+		margin: 0vh;
+		align-content: center;
+		}
+		
+		#i1{
+		align-content: center;
+		position: absolute;
+		width: 18%;
+		height: 13vh;
+		margin: 2vh 45% 2vh 35%;
+		}
+		.pai2{
+			flex-direction: column;
+
+			width: 100%;
+
+			height: 115vh;
+		}
+		.filho3{
+			margin:5vh 0% 5vh 0%;
+
+			text-align: center;
+
+			width: 100%;
+
+		}
+		.tx{
+			font-size: 15px;
+		}
+		#e{
+			position: relative;
+			margin: 2vh 0% 2vh 0%;}
+
+			.pai3{
+				height: 28vh;
+			}
+}
